@@ -1,0 +1,5 @@
+stremlit==1.50.0
+torch==2.8.0
+torchvision==0.23.0
+Pilow
+matplotlib
