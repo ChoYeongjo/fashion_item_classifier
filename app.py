@@ -1,10 +1,9 @@
-
 import streamlit as st
 import matplotlib.pyplot as plt
 from PIL import Image
 from model import predict
 
-st.set_option("deprecation.showfileUploaderEncoding", False)
+# st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.sidebar.title("이미지 인식 앱")
 st.sidebar.write("원본 이미지 인식 모델을 사용해 무슨 이미지인지를 판정함.")
